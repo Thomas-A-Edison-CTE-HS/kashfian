@@ -9,16 +9,20 @@ h1 {
 
 h2 {
     font-family: monospace;
+    color:rgb(77, 99, 129);
 }
 
 h3 {
     font-family: monospace;
+    color:rgb(77, 99, 129);
 }
 
 p {
     color:ghostwhite;
+    font-family: monospace;
 }
 
 li {
     color:ghostwhite;
+    font-family: monospace;
 }
