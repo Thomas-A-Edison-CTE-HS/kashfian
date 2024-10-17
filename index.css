@@ -1,4 +1,30 @@
 body {
     background-color: thistle;
-}
-
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-family: monospace;
+  }
+  
+  h2 {
+    color: white;
+    text-decoration: underline;
+    font-family: monospace;
+  }
+  
+  p {
+    color: white;
+    font-family: monospace;
+  }
+  
+  li {
+    color: white;
+  }
+  
+  a {
+    color: white;
+    font-family: monospace;
+  }
