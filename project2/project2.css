@@ -17,6 +17,16 @@ h3 {
     color:rgb(77, 99, 129);
 }
 
+img {
+float: right;
+width: 200px;
+height: 160px;
+border-radius: 10px;
+border-width: 4px;
+border-style: solid;
+border-color: rgb(77, 99, 129);
+}
+
 p {
     color:ghostwhite;
     font-family: monospace;
@@ -25,4 +35,8 @@ p {
 li {
     color:ghostwhite;
     font-family: monospace;
+}
+
+hr {
+    color: ghostwhite;
 }
