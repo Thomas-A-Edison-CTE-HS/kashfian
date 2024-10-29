@@ -1,0 +1,78 @@
+/* ADD NEEDED RULE SETS AND PROPERTIES BELOW */
+
+/* style for title and introduction */
+
+.op{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: forestgreen;
+  }
+  
+  /* style for the featured species and conservation efforts */
+  
+  .face1{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-start;
+    justify-content:space-around;
+    padding: 50px;
+  }
+  
+  /* style for the content inside the featured container */
+  
+  
+  
+  /* gallery style */
+  
+  
+  
+  /* style for each animal info card */
+  
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    border: solid;
+    border-color: black;
+    background: lightgrey;
+    
+  }
+  
+  /* style for the paragraph text in the animal info card */
+  
+  .cardp{
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  /* style for the footer containing the images credit */
+  
+  
+  
+  /* DO NOT EDIT CSS CODE BELOW */
+  
+  /* body style */
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  /* h2 style */
+  h2 {
+    color: #003E1F;
+  }
+  
+  /* h3 style */
+  h3 {
+    color: #053C5E;
+    margin-bottom: 10px;
+  }
+  
+  /* style for images */
+  img {
+    width: auto;
+    height: 200px;
+    border: 2px solid #003E1F;
+  }
