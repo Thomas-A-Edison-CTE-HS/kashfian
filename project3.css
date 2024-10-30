@@ -59,6 +59,10 @@
   text-align: center;
 }
 
+#gallery{
+  text-align: center;
+}
+
 img {
   width: auto;
   height: 200px;
