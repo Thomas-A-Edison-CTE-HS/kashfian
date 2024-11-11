@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spot the Difference</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" href="project4.css">
+    <link rel="icon" type="image/png" href="avatar.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Spot The Difference!</h1>
+      </div>
+      <div class="extra">
+        <div class="headings">
+          <h2>Made by Kashfia Nayim</h2>
+        </div>
+        <img src="avatar.png" width="35%;">
+      </div>
+    </div>
+    <div class="container2">
+      <div class="wave" id="easy-level">
+        <h2>Instructions:</h2>
+        <p>Hover over each section to begin. Move mouse off image after 5 seconds and try and spot the difference!</p>
+        <h2>Level Difficulties:</h2>
+        <div class="ol">
+          <ol class="centered-list">
+            <li id="easy">Easy</li>
+            <li id="medium">Medium</li>
+            <li id="hard">Hard</li>
+          </ol>
+        </div>
+      </div>
+    <div class="waveeasy" id="easylvl"> 
+      <h3 id="ezheading">Easy Level</h3>
+      <div class="easyimages">
+        <img class="easyimages" src="easylvlb4.png"
+             onmouseover="this.src='easylvlaf.png';"
+             onmouseout="this.src='easylvlb4.png';" width="900">
+      </div>
+    </div>
+    <div class="wavemed" id="medlvl"> 
+      <h3>Medium Level</h3>
+      <img class="medimages" src="mediumlvlb4.png" 
+           onmouseover="this.src='mediumlvlaf.png';"
+           onmouseout="this.src='mediumlvlb4.png';" width="900">
+    </div>
+    <div class="wavehard" id="hardlvl"> 
+      <h3>Hard Level</h3>
+      <img class="hardimages" src="hardlvlb4.png" 
+           onmouseover="this.src='hardlvlaf.png';"
+           onmouseout="this.src='hardlvlb4.png';" width="900">
+    </div>
+  </body>
 </html>

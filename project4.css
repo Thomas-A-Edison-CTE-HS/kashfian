@@ -1,0 +1,152 @@
+body {
+    background-image: url(pixartbg.png);
+  }
+  
+  p {
+    color: #0a2964;
+    font-size: 20px;
+    font-family: monospace;
+  }
+  
+  h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0a2964;
+    font-family: monospace;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #0a2964;
+    font-family: monospace;
+  }
+  
+  h5 {
+    text-align: center;
+    color: #0a2964;
+    font-family: monospace;
+  }
+  
+  ol {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a2964;
+    font-family: monospace;
+  }
+  
+  .container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .extra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .container2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+  }
+  
+  .pixelart {
+    width: 150px;
+  }
+  
+  #easylvl {
+    text-align: center;
+  }
+  
+  .waveeasy {
+    border: 1px solid #192A51;
+    background-color: #0a2964;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    font-family: monospace;
+    height: 50px;
+    overflow: hidden;
+    width: 80%;
+    margin: 10px auto;
+    transition: height 0.5s ease; 
+  }
+  
+  .waveeasy:hover {
+    height: 700px;
+  }
+  
+  .easyimages {
+    transition: opacity 0.5 ease;
+  }
+  
+  #medlvl {
+    text-align: center;
+  }
+  
+  .wavemed{
+    border: 1px solid #192A51;
+    background-color: #0a2964;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    font-family: monospace;
+    height: 50px;
+    overflow: hidden;
+    width: 80%;
+    margin: 10px auto;
+    transition: height 0.5s ease; 
+  }
+  
+  .wavemed:hover {
+    height: 700px;
+  }
+  
+  .medimages {
+    transition: opacity 0.5 ease;
+  }
+  
+  #hardlvl {
+    text-align: center;
+  }
+  
+  .wavehard {
+    border: 1px solid #192A51;
+    background-color: #0a2964;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+    font-family: monospace;
+    height: 50px;
+    overflow: hidden;
+    width: 80%;
+    margin: 10px auto;
+    transition: height 0.5s ease; 
+  }
+  
+  .wavehard:hover {
+    height: 700px;
+  }
+  
+  .hardimages {
+    transition: opacity 0.5 ease;
+  }
+  
+  #ezheading {
+    color: whitesmoke;
+  }  
