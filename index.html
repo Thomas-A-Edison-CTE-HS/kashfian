@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sophomore Portfolio</title>
-    <!--Favicon-->
     <link rel="icon" type="image/png" href="avatar.png">
     <style>
       body {
@@ -17,29 +16,44 @@
 
       h1 {
         font-size: 32px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         color: aliceblue;
+      }
+
+      nav {
+        margin-bottom: 30px;
+      }
+
+      .nav-link {
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease;
+      }
+
+      .nav-link:hover {
+        border-color: white;
       }
 
       h2 {
         margin-top: 30px;
         font-size: 24px;
-        color: aliceblue
+        color: aliceblue;
       }
 
       img {
         border-radius: 10px;
         margin-bottom: 10px;
-        border: solid;
-        border-width: 5px;
-        border-color: #cf98cf;
+        border: solid 5px #cf98cf;
       }
 
       p {
         max-width: 700px;
         margin: 0 auto 20px auto;
         line-height: 1.6;
-        color: aliceblue
+        color: aliceblue;
       }
 
       .button-container {
@@ -59,26 +73,36 @@
         border-radius: 10px;
         font-size: 16px;
         transition: background-color 0.3s ease;
-        
       }
+
       .link-button:hover {
         background-color: #b97fb9;
       }
     </style>
   </head>
   <body>
+
     <h1>Sophomore Portfolio Home Page</h1>
-    <!--Photo of me-->
+
+    <!-- Navigation bar -->
+    <nav>
+      <a class="nav-link" href="#about">~ About me ~</a> 
+      <a class="nav-link" href="#projects">~ Projects ~</a> 
+      <a class="nav-link" href="#">~ Home ~</a>
+    </nav>
+
+    <!-- Photo -->
     <img src="avatar.png" width="200" alt="Pixel art of me">
     <p><strong>Pixel art of me!</strong></p>
 
-    <h2>About me:</h2>
+    <!-- About Section -->
+    <h2 id="about">About me:</h2>
     <p>
-      My name is Kashfia Nayim. I am a sophomore at Thomas A. Edison CTE High School studying Web Design and Development. 
-      I have been learning code for about a year and know HTML and CSS.
+      My name is Kashfia Nayim. I am a sophomore at Thomas A. Edison CTE High School studying Web Design and Development. I have been learning code for about a year and know HTML and CSS. I have passed my HTML and CSS certification from Certiport.
     </p>
 
-    <h2>Here are all my works:</h2>
+    <!-- Projects Section -->
+    <h2 id="projects">Here are all my works:</h2>
 
     <div class="button-container">
       <a class="link-button" href="project2.html">Denzel's Bakery of Treats</a>
